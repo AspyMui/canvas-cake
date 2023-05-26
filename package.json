@@ -1,0 +1,30 @@
+{
+  "name": "canvas-cake",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": {
+    "import": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "source": "./src/index.ts",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "AspyMui",
+  "license": "gpl-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AspyMui/canvas-cake"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  }
+}
