@@ -1,5 +1,9 @@
 # Canvas Cake
 
+[![NPM Package][badgen-version]][url-npm]
+[![NPM Package][badgen-license]][url-license]
+![NPM Package][badgen-types]
+
 > CAKES! Everybody loves cakes! Cakes have layers!
 >
 > \-Donkey
@@ -50,3 +54,9 @@ cake.update();
 ```
 
 ![example1](/assets/ex2.png)
+
+[url-npm]: https://www.npmjs.com/package/canvas-cake
+[url-license]: https://github.com/AspyMui/canvas-cake/blob/main/LICENSE.txt
+[badgen-version]: https://badgen.net/npm/v/canvas-cake
+[badgen-license]: https://badgen.net/npm/license/canvas-cake
+[badgen-types]: https://badgen.net/npm/types/tslib
