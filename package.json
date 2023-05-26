@@ -1,7 +1,24 @@
 {
   "name": "canvas-cake",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple canvas layering system",
+  "author": {
+    "name": "AspyMui",
+    "email": "aspymui@gmail.com"
+  },
+  "keywords": [
+    "javascript",
+    "canvas",
+    "html5-canvas",
+    "canvas-layer",
+    "canvas-layering"
+  ],
+  "license": "gpl-3.0",
+  "repository": "github:AspyMui/canvas-cake",
+  "bugs": {
+    "url": "https://github.com/AspyMui/canvas-cake/issues",
+    "email": "aspymui@gmail.com"
+  },
   "type": "module",
   "exports": {
     "import": "./dist/index.js",
@@ -16,13 +33,6 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "npx tsc"
-  },
-  "keywords": [],
-  "author": "AspyMui",
-  "license": "gpl-3.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AspyMui/canvas-cake"
   },
   "devDependencies": {
     "typescript": "^5.0.3"
